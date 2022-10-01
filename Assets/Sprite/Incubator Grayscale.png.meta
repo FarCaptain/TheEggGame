@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6200411974cc74a4ba4f00bfd2fc0bf6
+guid: 285765d442b4ff54082a44886f7de832
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_0
+      name: Incubator Grayscale_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 32
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b12bb31e77f2eb41a05b7780a12f42a
-      internalID: 35979299
+      spriteID: 89d258adb1aff634fbce18513fb9178b
+      internalID: -1549870101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_1
+      name: Incubator Grayscale_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 26
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7f8125a032f834da8ecaded5f11a29
-      internalID: -1395799216
+      spriteID: ed647aca642be8344927e2dfceb7b79e
+      internalID: 1671551080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_2
+      name: Incubator Grayscale_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 52
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca3e58bf8d1e89469edda8b2e10e012
-      internalID: -299712962
+      spriteID: 43d3de5f4f3776945b45527efc2c753e
+      internalID: -1833135314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_3
+      name: Incubator Grayscale_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 78
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c59b398d344db449f87e9a1f75a261
-      internalID: 2070225144
+      spriteID: c430de64656dbd947b9fc57eb932f38e
+      internalID: -1770641878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb26784bc4a1554cb81a2994e775cdc
+      internalID: -962220474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a04f1093a66d5e4cb6bda53bb77e41a
+      internalID: 50175856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5419eef203d3b4faf1c0d51c8a5973
+      internalID: 2026044047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94c315e0d2c01045b54d4c8417ac0ac
+      internalID: 1354379505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Grayscale_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cba476f56dc4342bace2a18365d11b
+      internalID: 1134478952
       vertices: []
       indices: 
       edges: []
@@ -202,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e0e409dea04b4f04b9ed5b6b213af4d5
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +315,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      10 - Blankey_Floating (32 x 32)_3: 2070225144
-      10 - Blankey_Floating (32 x 32)_2: -299712962
-      10 - Blankey_Floating (32 x 32)_1: -1395799216
-      10 - Blankey_Floating (32 x 32)_0: 35979299
+      Incubator Grayscale_5: 50175856
+      Incubator Grayscale_15: 12545566
+      Incubator Grayscale_8: 1134478952
+      Incubator Grayscale_14: -1565297854
+      Incubator Grayscale_11: -1018973888
+      Incubator Grayscale_1: 1671551080
+      Incubator Grayscale_13: 1561918734
+      Incubator Grayscale_16: -607796261
+      Incubator Grayscale_10: -1907328870
+      Incubator Grayscale_4: -962220474
+      Incubator Grayscale_0: -1549870101
+      Incubator Grayscale_9: 61494489
+      Incubator Grayscale_17: -1060520654
+      Incubator Grayscale_12: -790005487
+      Incubator Grayscale_2: -1833135314
+      Incubator Grayscale_3: -1770641878
+      Incubator Grayscale_7: 1354379505
+      Incubator Grayscale_6: 2026044047
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

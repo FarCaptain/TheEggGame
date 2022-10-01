@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6200411974cc74a4ba4f00bfd2fc0bf6
+guid: 98ac15b9b182ff549a8d28b768b6c4c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_0
+      name: Incubator Color_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 32
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b12bb31e77f2eb41a05b7780a12f42a
-      internalID: 35979299
+      spriteID: d6f37e5ebcc4fe544affaa5729ddf3e4
+      internalID: -1442465804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_1
+      name: Incubator Color_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 26
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7f8125a032f834da8ecaded5f11a29
-      internalID: -1395799216
+      spriteID: e1e313427cab0bd4d867f681d35a642a
+      internalID: -161129859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_2
+      name: Incubator Color_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 52
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca3e58bf8d1e89469edda8b2e10e012
-      internalID: -299712962
+      spriteID: ce55c85e35cfa394e93d2dd6be76d493
+      internalID: -1972625998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10 - Blankey_Floating (32 x 32)_3
+      name: Incubator Color_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 78
+        y: 26
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91c59b398d344db449f87e9a1f75a261
-      internalID: 2070225144
+      spriteID: f443151dedee21b4e9ccb8a0a55adf9c
+      internalID: 1411333025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Color_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10cea7570071b44bbb86d49bfcc0e2f
+      internalID: 1608898501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Color_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e90862036029b44b65f7cdbda13885
+      internalID: 2054079420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Color_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66382fd1d54b4cb4a88a46f32f6a1c57
+      internalID: -1942562997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Color_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf29c08a3e568747b652dd169c27ee9
+      internalID: 713746800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incubator Color_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 26
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93607b68d3bc9614dbfa26076d9b1939
+      internalID: 571534935
       vertices: []
       indices: 
       edges: []
@@ -202,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e7b528ecf4d52814687d9c97fe2953ca
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +315,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      10 - Blankey_Floating (32 x 32)_3: 2070225144
-      10 - Blankey_Floating (32 x 32)_2: -299712962
-      10 - Blankey_Floating (32 x 32)_1: -1395799216
-      10 - Blankey_Floating (32 x 32)_0: 35979299
+      Incubator Color_9: 573001467
+      Incubator Color_10: -1930171783
+      Incubator Color_13: -471336938
+      Incubator Color_11: 908273611
+      Incubator Color_14: -1774856861
+      Incubator Color_8: 571534935
+      Incubator Color_17: 1459011934
+      Incubator Color_15: -419564695
+      Incubator Color_16: 1866164450
+      Incubator Color_6: -1942562997
+      Incubator Color_3: 1411333025
+      Incubator Color_12: -649355498
+      Incubator Color_1: -161129859
+      Incubator Color_2: -1972625998
+      Incubator Color_7: 713746800
+      Incubator Color_0: -1442465804
+      Incubator Color_4: 1608898501
+      Incubator Color_5: 2054079420
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
