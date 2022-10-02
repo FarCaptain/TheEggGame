@@ -62,7 +62,8 @@ public class SimpleCharacterMovement : MonoBehaviour
             Moving();
         }
 
-        animator.SetFloat(hashSpeedPara, speed, speedDampTime, Time.deltaTime);
+        if(animator)
+            animator.SetFloat(hashSpeedPara, speed, speedDampTime, Time.deltaTime);
     }
 
     private void Stopping(out float speed)
