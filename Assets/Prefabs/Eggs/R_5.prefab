@@ -207,7 +207,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eggClass: 1
   eggSpriteSheet:
-  - {fileID: 1669967763, guid: 458e90586cdaeb149a78d249243b4c43, type: 3}
+  - {fileID: -183787782, guid: c5f951f679cc6c641afb51bd616cd4fb, type: 3}
+  - {fileID: -1179617414, guid: c5f951f679cc6c641afb51bd616cd4fb, type: 3}
+  - {fileID: 1410645125, guid: c5f951f679cc6c641afb51bd616cd4fb, type: 3}
+  - {fileID: 886103597, guid: c5f951f679cc6c641afb51bd616cd4fb, type: 3}
+  - {fileID: 1131323128, guid: c5f951f679cc6c641afb51bd616cd4fb, type: 3}
   phaseDuration: 
   creatureVault: {fileID: 11400000, guid: 2852be092796b094eaf4051a3db5f0fa, type: 2}
   eggSetting: {fileID: 11400000, guid: 4303525a270885c40bdec0f3df3cefd3, type: 2}

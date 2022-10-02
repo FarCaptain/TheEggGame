@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a2f0bd732fc8c428b72e6166e1105f, type: 3}
   m_Name: SREggSetting
   m_EditorClassIdentifier: 
-  eggShellDefense: 
+  eggShellDefense: 0300000003000000030000000300000003000000
