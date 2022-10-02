@@ -6,7 +6,6 @@ public class Egg : MonoBehaviour
 {
     public EggClass eggClass;
     public List<Sprite> eggSpriteSheet = new List<Sprite>();
-    public int[] phaseDuration;
     public CreatureVault creatureVault;
     public EggSetting eggSetting;
 
@@ -23,11 +22,6 @@ public class Egg : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Start()
-    {
-
-    }
-
     public void SpawnCreature()
     {
         creatureVault.SpwanCreature(eggClass);
@@ -35,10 +29,10 @@ public class Egg : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(++clickCount >= eggSetting.eggShellDefense[spriteSheetIdx])
+        if(++clickCount >= eggSetting.eggShellDefense[shellDefenceIdx])
         {
             clickCount = 0;
-            if (++spriteSheetIdx >= eggSetting.eggShellDefense.Length)
+            if (++shellDefenceIdx >= eggSetting.eggShellDefense.Length)
             {
                 // sound, vfx
                 SpawnCreature();
