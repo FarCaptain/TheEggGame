@@ -164,6 +164,19 @@ public class SimpleCharacterMovement : MonoBehaviour
         transform.localScale = theScale;
     }
 
+    public void MoveToRandomPositon(float radius)
+    {
+        Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * radius;
+        randomDirection += transform.position;
+        NavMeshHit hit;
+        Vector3 finalPosition = Vector3.zero;
+        if (NavMesh.SamplePosition(randomDirection, out hit, radius, 1))
+        {
+            finalPosition = hit.position;
+        }
+        MoveTo(finalPosition);
+    }
+
     #endregion
 
 }
