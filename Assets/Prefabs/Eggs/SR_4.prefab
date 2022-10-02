@@ -179,6 +179,8 @@ GameObject:
   - component: {fileID: 5537119944375542121}
   - component: {fileID: 6782791636795615395}
   - component: {fileID: 7097121301102020727}
+  - component: {fileID: 5571164371546974909}
+  - component: {fileID: -8364578019510626789}
   m_Layer: 0
   m_Name: SR_4
   m_TagString: Untagged
@@ -275,3 +277,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5571164371546974909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953195661436277909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32980c28d189ab342875ca8b615a44df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eggClass: 2
+  eggSpriteSheet:
+  - {fileID: 1669967763, guid: 458e90586cdaeb149a78d249243b4c43, type: 3}
+  phaseDuration: 
+  creatureVault: {fileID: 11400000, guid: 2852be092796b094eaf4051a3db5f0fa, type: 2}
+  eggSetting: {fileID: 11400000, guid: 8ddec076870156c49aba9ce8715c3c66, type: 2}
+--- !u!65 &-8364578019510626789
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8953195661436277909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.015625, y: 0.015625, z: 0.20000006}
+  m_Center: {x: 0, y: 0, z: 0}

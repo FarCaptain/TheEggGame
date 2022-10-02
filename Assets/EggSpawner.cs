@@ -17,6 +17,12 @@ public class EggSpawner : MonoBehaviour
     private Animator rollerAnimator;
     private delegate void initList(List<GameObject> list);
 
+    private void Start()
+    {
+        InvokeRepeating("GenEgg", 2, 10);
+    }
+
+
     public void InitEggHolder(EggClass eggClass)
     {
         eggHolder = Instantiate(EggHolderPrefab, null);
@@ -29,6 +35,8 @@ public class EggSpawner : MonoBehaviour
             egg.transform.localPosition = Vector3.zero;
             egg.transform.localRotation = Quaternion.identity;
             rollerAnimator.SetTrigger("Roll");
+
+            egg.transform.GetComponent<Animator>().enabled = false;
         };
 
         switch (eggClass)
@@ -60,6 +68,23 @@ public class EggSpawner : MonoBehaviour
         {
             InitEggHolder(EggClass.R);
         }
+    }
+
+
+    private EggClass GenEggClass()
+    {
+        // https://docs.google.com/spreadsheets/d/1Eh9cNn7NbvadYr0vnDf8t-YiPCmISvBPht1J6tLYLao/edit#gid=0
+        // SSR 3% SR 12% R 30% N 55%
+        int num = UnityEngine.Random.Range(1, 101);
+        if (num <= 3) return EggClass.SSR;
+        else if (num <= 15) return EggClass.SR;
+        else if (num <= 45) return EggClass.R;
+        return EggClass.N;
+    }
+
+    public void GenEgg()
+    {
+        InitEggHolder(GenEggClass());
     }
 }
 
