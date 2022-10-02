@@ -2744,6 +2744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MartianPivit
       objectReference: {fileID: 0}
+    - target: {fileID: 7107744591898207457, guid: 84c4ebce76ad126418c12f6e6eeacb83,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7107744591898207467, guid: 84c4ebce76ad126418c12f6e6eeacb83,
         type: 3}
       propertyPath: m_RootOrder
@@ -2892,6 +2897,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DinoGreen
       objectReference: {fileID: 0}
+    - target: {fileID: 236126648212399071, guid: cd7f9ca4c648b6b41b495585e9172f6b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd7f9ca4c648b6b41b495585e9172f6b, type: 3}
 --- !u!1001 &908501469160090658
@@ -2905,6 +2915,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mr._Circuit
+      objectReference: {fileID: 0}
+    - target: {fileID: 908501469464849884, guid: e36d87d3e2341cd43a18c219e8953294,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 908501469464849959, guid: e36d87d3e2341cd43a18c219e8953294,
         type: 3}
@@ -3030,6 +3045,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hermie
       objectReference: {fileID: 0}
+    - target: {fileID: 2042365657047190458, guid: b05518c59fb1d2842b8ef54a72e82353,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b05518c59fb1d2842b8ef54a72e82353, type: 3}
 --- !u!1001 &2166062642868258952
@@ -3043,6 +3063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DinoRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166062641919987640, guid: 33aab1c1386ef9e40b1e087a279c547a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166062641919987647, guid: 33aab1c1386ef9e40b1e087a279c547a,
         type: 3}
@@ -3168,6 +3193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Roach
       objectReference: {fileID: 0}
+    - target: {fileID: 2424670476856129615, guid: 4f241f80dd4350a4e972fce5a6035b14,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f241f80dd4350a4e972fce5a6035b14, type: 3}
 --- !u!1001 &2431554071455885771
@@ -3237,6 +3267,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jumpy
       objectReference: {fileID: 0}
+    - target: {fileID: 2431554071528091255, guid: 542f1b44b6e728649b65f60bb57e08ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 542f1b44b6e728649b65f60bb57e08ab, type: 3}
 --- !u!1001 &5093698379034697920
@@ -3250,6 +3285,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fox
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093698379345906972, guid: ac4329b2ee3c07b41ab51f45329293c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5093698379345906979, guid: ac4329b2ee3c07b41ab51f45329293c0,
         type: 3}
@@ -3319,6 +3359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dino_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382847976294034472, guid: bc0d44712fa7cd54aa19a4658f987b1a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3675290132154511368, guid: bc0d44712fa7cd54aa19a4658f987b1a,
         type: 3}
@@ -3564,6 +3609,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ballooney
       objectReference: {fileID: 0}
+    - target: {fileID: 6404362568031078153, guid: fb5b566de717e2d44becb90ef29b7b38,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb5b566de717e2d44becb90ef29b7b38, type: 3}
 --- !u!1001 &7006631278477231072
@@ -3577,6 +3627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Blankey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5598612159320421889, guid: ecc2e46c7d693574aac9b0a7eb597df1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5782989915395402273, guid: ecc2e46c7d693574aac9b0a7eb597df1,
         type: 3}
@@ -3646,6 +3701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Owl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118621281887318419, guid: 7c61ced627b400d42a5891e0d65bef14,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8118621281887318428, guid: 7c61ced627b400d42a5891e0d65bef14,
         type: 3}
@@ -3771,6 +3831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
+    - target: {fileID: 8300990864982002005, guid: b23d06a71babb7344b8be2110767e6ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b23d06a71babb7344b8be2110767e6ad, type: 3}
 --- !u!1001 &8303107649929409127
@@ -3839,6 +3904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DinoYellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303107648243219551, guid: 468ab4f388f005e45b984a1580d6a948,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 468ab4f388f005e45b984a1580d6a948, type: 3}
