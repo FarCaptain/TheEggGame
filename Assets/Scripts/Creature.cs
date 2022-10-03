@@ -8,4 +8,6 @@ public class Creature
     public GameObject creaturePrefab;
     public EggClass rarityClass;
     public int probabilityInClass;
+
+    public bool discovered = false;
 }

@@ -23,6 +23,8 @@ public class PopUpPanel : MonoBehaviour
 
     public void PopUp(Creature creature)
     {
+        if (creature.discovered)
+            return;
         panel.gameObject.SetActive(true);
         Sprite _sprite = creature.creaturePrefab.GetComponentInChildren<SpriteRenderer>().sprite;
         creatureSprite.sprite = _sprite;
