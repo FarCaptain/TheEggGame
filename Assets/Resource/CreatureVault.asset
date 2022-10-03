@@ -13,59 +13,73 @@ MonoBehaviour:
   m_Name: CreatureVault
   m_EditorClassIdentifier: 
   CreaturePrefabs:
-  - creaturePrefab: {fileID: 5093698379345906972, guid: ac4329b2ee3c07b41ab51f45329293c0,
+  - name: Fox
+    creaturePrefab: {fileID: 5093698379345906972, guid: ac4329b2ee3c07b41ab51f45329293c0,
       type: 3}
     rarityClass: 3
     probabilityInClass: 100
-  - creaturePrefab: {fileID: 908501469464849884, guid: e36d87d3e2341cd43a18c219e8953294,
+  - name: Mr.Circuit
+    creaturePrefab: {fileID: 908501469464849884, guid: e36d87d3e2341cd43a18c219e8953294,
       type: 3}
     rarityClass: 2
     probabilityInClass: 55
-  - creaturePrefab: {fileID: 8300990864982002005, guid: b23d06a71babb7344b8be2110767e6ad,
+  - name: Robert
+    creaturePrefab: {fileID: 8300990864982002005, guid: b23d06a71babb7344b8be2110767e6ad,
       type: 3}
     rarityClass: 2
     probabilityInClass: 45
-  - creaturePrefab: {fileID: 2042365657047190458, guid: b05518c59fb1d2842b8ef54a72e82353,
+  - name: Hermie
+    creaturePrefab: {fileID: 2042365657047190458, guid: b05518c59fb1d2842b8ef54a72e82353,
       type: 3}
     rarityClass: 1
     probabilityInClass: 18
-  - creaturePrefab: {fileID: 3382847976294034472, guid: bc0d44712fa7cd54aa19a4658f987b1a,
+  - name: Doux
+    creaturePrefab: {fileID: 3382847976294034472, guid: bc0d44712fa7cd54aa19a4658f987b1a,
       type: 3}
     rarityClass: 1
     probabilityInClass: 19
-  - creaturePrefab: {fileID: 2166062641919987640, guid: 33aab1c1386ef9e40b1e087a279c547a,
+  - name: Mort
+    creaturePrefab: {fileID: 2166062641919987640, guid: 33aab1c1386ef9e40b1e087a279c547a,
       type: 3}
     rarityClass: 1
     probabilityInClass: 20
-  - creaturePrefab: {fileID: 8303107648243219551, guid: 468ab4f388f005e45b984a1580d6a948,
+  - name: Tard
+    creaturePrefab: {fileID: 8303107648243219551, guid: 468ab4f388f005e45b984a1580d6a948,
       type: 3}
     rarityClass: 1
     probabilityInClass: 21
-  - creaturePrefab: {fileID: 236126648212399071, guid: cd7f9ca4c648b6b41b495585e9172f6b,
+  - name: Vita
+    creaturePrefab: {fileID: 236126648212399071, guid: cd7f9ca4c648b6b41b495585e9172f6b,
       type: 3}
     rarityClass: 1
     probabilityInClass: 22
-  - creaturePrefab: {fileID: 6404362568031078153, guid: fb5b566de717e2d44becb90ef29b7b38,
+  - name: Ballooney
+    creaturePrefab: {fileID: 6404362568031078153, guid: fb5b566de717e2d44becb90ef29b7b38,
       type: 3}
     rarityClass: 0
     probabilityInClass: 14
-  - creaturePrefab: {fileID: 5598612159320421889, guid: ecc2e46c7d693574aac9b0a7eb597df1,
+  - name: Blankey
+    creaturePrefab: {fileID: 5598612159320421889, guid: ecc2e46c7d693574aac9b0a7eb597df1,
       type: 3}
     rarityClass: 0
     probabilityInClass: 15
-  - creaturePrefab: {fileID: 2431554071528091255, guid: 542f1b44b6e728649b65f60bb57e08ab,
+  - name: Jumpy Lumpy
+    creaturePrefab: {fileID: 2431554071528091255, guid: 542f1b44b6e728649b65f60bb57e08ab,
       type: 3}
     rarityClass: 0
     probabilityInClass: 16
-  - creaturePrefab: {fileID: 7107744591898207457, guid: 84c4ebce76ad126418c12f6e6eeacb83,
+  - name: Martian
+    creaturePrefab: {fileID: 7107744591898207457, guid: 84c4ebce76ad126418c12f6e6eeacb83,
       type: 3}
     rarityClass: 0
     probabilityInClass: 17
-  - creaturePrefab: {fileID: 8118621281887318419, guid: 7c61ced627b400d42a5891e0d65bef14,
+  - name: Orchid
+    creaturePrefab: {fileID: 8118621281887318419, guid: 7c61ced627b400d42a5891e0d65bef14,
       type: 3}
     rarityClass: 0
     probabilityInClass: 18
-  - creaturePrefab: {fileID: 2424670476856129615, guid: 4f241f80dd4350a4e972fce5a6035b14,
+  - name: Roach
+    creaturePrefab: {fileID: 2424670476856129615, guid: 4f241f80dd4350a4e972fce5a6035b14,
       type: 3}
     rarityClass: 0
     probabilityInClass: 20
