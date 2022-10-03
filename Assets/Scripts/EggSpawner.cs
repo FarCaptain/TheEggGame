@@ -87,6 +87,7 @@ public class EggSpawner : MonoBehaviour
 
     public void GenEgg()
     {
+        chickenAnimator.SetTrigger("Bounce");
         chickenParticle.Play();
         InitEggHolder(GenEggClass());
     }

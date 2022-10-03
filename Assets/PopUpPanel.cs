@@ -28,12 +28,12 @@ public class PopUpPanel : MonoBehaviour
         creatureSprite.sprite = _sprite;
 
         creatureName.text = "You Found: " + creature.name + "!";
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
     }
 
     public void CloseWindow()
     {
         panel.gameObject.SetActive(false);
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
     }
 }
