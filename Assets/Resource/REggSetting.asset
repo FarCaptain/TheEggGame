@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7a2f0bd732fc8c428b72e6166e1105f, type: 3}
   m_Name: REggSetting
   m_EditorClassIdentifier: 
-  eggShellDefense: 0200000002000000020000000200000002000000
+  eggShellDefense: 0400000004000000040000000400000004000000
