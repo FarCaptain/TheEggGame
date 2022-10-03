@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PopUpPanel : MonoBehaviour
 {
     [SerializeField] private Transform panel;
-    [SerializeField] private Image creatureSprite;
+    [SerializeField] private SpriteRenderer creatureSprite;
     [SerializeField] private Text creatureName;
 
     [SerializeField] private CreatureVault vault;
