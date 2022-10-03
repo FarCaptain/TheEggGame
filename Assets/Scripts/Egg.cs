@@ -31,11 +31,13 @@ public class Egg : MonoBehaviour
 
     private void OnMouseDown()
     {
+        AudioManager.instance.Play("Click");
         if (shellDefenceIdx >= eggSetting.eggShellDefense.Length)
             return;
 
         if(++clickCount >= eggSetting.eggShellDefense[shellDefenceIdx])
         {
+            AudioManager.instance.Play("Crack");
             clickCount = 0;
             if (spriteSheetIdx < eggSpriteSheet.Count - 1)
             {
@@ -55,6 +57,7 @@ public class Egg : MonoBehaviour
         var particle = Instantiate(eggBrokenParticle, transform.position, Quaternion.Euler(30f, 0f, 0f));
         particle.Play();
         yield return new WaitForSeconds(0.5f);
+        AudioManager.instance.Play("Out");
         SpawnCreature();
         // particle would self-destroy
         Destroy(gameObject);
