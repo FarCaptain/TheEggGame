@@ -29,6 +29,8 @@ public class CreatureVault : ScriptableObject
                     var creatureobj = Instantiate(creature.creaturePrefab, null);
                     CreatureSpawned?.Invoke(creature);
 
+                    UpdateCreatureRecord(creature);
+
                     Vector3 originalPos = creatureobj.transform.position;
                     creatureobj.transform.position = new Vector3(position.x, originalPos.y, position.z);
                     return;
@@ -54,7 +56,7 @@ public class CreatureVault : ScriptableObject
         }
     }
 
-    public void UpdateCreatureRecord(Creature creature)
+    private void UpdateCreatureRecord(Creature creature)
     {
         if (!creature.discovered)
         {

@@ -14,6 +14,7 @@ public class EggSpawner : MonoBehaviour
 
     [SerializeField] private ParticleSystem chickenParticle;
     [SerializeField] private Animator chickenAnimator;
+    [SerializeField] private Transform popupPanel;
 
     private GameObject egg;
     private GameObject eggHolder;
@@ -87,6 +88,8 @@ public class EggSpawner : MonoBehaviour
 
     public void GenEgg()
     {
+        if (popupPanel.gameObject.activeSelf)
+            return;
         chickenAnimator.SetTrigger("Bounce");
         AudioManager.instance.Play("Hen");
         chickenParticle.Play();

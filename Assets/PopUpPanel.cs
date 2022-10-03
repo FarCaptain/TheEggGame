@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,11 +9,13 @@ public class PopUpPanel : MonoBehaviour
     [SerializeField] private Transform panel;
     [SerializeField] private SpriteRenderer creatureSprite;
     [SerializeField] private Text creatureName;
+    [SerializeField] private Text rarity;
 
     [SerializeField] private CreatureVault vault;
 
     private void OnEnable()
     {
+        vault.InitRecord();
         vault.CreatureSpawned += PopUp;
     }
 
@@ -30,6 +33,7 @@ public class PopUpPanel : MonoBehaviour
         creatureSprite.sprite = _sprite;
 
         creatureName.text = "You Found: " + creature.name + "!";
+        rarity.text = "Rarity: " + Enum.GetName( typeof(EggClass), creature.rarityClass) + "!";
         //Time.timeScale = 0f;
     }
 
