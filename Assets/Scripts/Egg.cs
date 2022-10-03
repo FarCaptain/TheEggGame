@@ -9,6 +9,8 @@ public class Egg : MonoBehaviour
     public CreatureVault creatureVault;
     public EggSetting eggSetting;
 
+    [SerializeField] private ParticleSystem eggBrokenParticle;
+
     private Animator animator;
     private new SpriteRenderer renderer;
     private int spriteSheetIdx = 0;
@@ -24,24 +26,37 @@ public class Egg : MonoBehaviour
 
     public void SpawnCreature()
     {
-        creatureVault.SpwanCreature(eggClass);
+        creatureVault.SpwanCreature(eggClass, transform.position);
     }
 
     private void OnMouseDown()
     {
+        if (shellDefenceIdx >= eggSetting.eggShellDefense.Length)
+            return;
+
         if(++clickCount >= eggSetting.eggShellDefense[shellDefenceIdx])
         {
             clickCount = 0;
-            if (++shellDefenceIdx >= eggSetting.eggShellDefense.Length)
+            if (spriteSheetIdx < eggSpriteSheet.Count - 1)
             {
-                // sound, vfx
-                SpawnCreature();
-                Destroy(gameObject);
+                renderer.sprite = eggSpriteSheet[++spriteSheetIdx];
             }
-            else if (spriteSheetIdx < eggSpriteSheet.Count)
+            if (shellDefenceIdx++ == eggSetting.eggShellDefense.Length - 1)
             {
-                renderer.sprite = eggSpriteSheet[spriteSheetIdx++];
+                StartCoroutine(OnShellBreak());
             }
         }
+    }
+
+    private IEnumerator OnShellBreak()
+    {
+        transform.parent = null;
+        animator.enabled = true;
+        var particle = Instantiate(eggBrokenParticle, transform.position, Quaternion.Euler(30f, 0f, 0f));
+        particle.Play();
+        yield return new WaitForSeconds(0.5f);
+        SpawnCreature();
+        // particle would self-destroy
+        Destroy(gameObject);
     }
 }

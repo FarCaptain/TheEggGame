@@ -10,7 +10,7 @@ public class CreatureVault : ScriptableObject
     public event CreatureSpawnHandler CreatureSpawned;
 
 
-    public void SpwanCreature(EggClass _class)
+    public void SpwanCreature(EggClass _class, Vector3 position)
     {
         int randNum = Random.Range(1, 101);
         int sum = 0;
@@ -25,8 +25,10 @@ public class CreatureVault : ScriptableObject
                 sum += creature.probabilityInClass;
                 if (randNum <= sum)
                 {
-                    Instantiate(creature.creaturePrefab, null);
+                    var creatureobj = Instantiate(creature.creaturePrefab, null);
                     CreatureSpawned?.Invoke(creature);
+                    Vector3 originalPos = creatureobj.transform.position;
+                    creatureobj.transform.position = new Vector3(position.x, originalPos.y, position.z);
                     return;
                 }
             }

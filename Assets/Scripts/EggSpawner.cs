@@ -12,6 +12,9 @@ public class EggSpawner : MonoBehaviour
 
     public GameObject EggHolderPrefab;
 
+    [SerializeField] private ParticleSystem chickenParticle;
+    [SerializeField] private Animator chickenAnimator;
+
     private GameObject egg;
     private GameObject eggHolder;
     private Animator rollerAnimator;
@@ -84,6 +87,7 @@ public class EggSpawner : MonoBehaviour
 
     public void GenEgg()
     {
+        chickenParticle.Play();
         InitEggHolder(GenEggClass());
     }
 }

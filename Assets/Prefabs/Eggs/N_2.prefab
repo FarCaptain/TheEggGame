@@ -296,9 +296,10 @@ MonoBehaviour:
   - {fileID: -98930384, guid: 458e90586cdaeb149a78d249243b4c43, type: 3}
   - {fileID: -1865117340, guid: 458e90586cdaeb149a78d249243b4c43, type: 3}
   - {fileID: 1023735731, guid: 458e90586cdaeb149a78d249243b4c43, type: 3}
-  phaseDuration: 
   creatureVault: {fileID: 11400000, guid: 2852be092796b094eaf4051a3db5f0fa, type: 2}
   eggSetting: {fileID: 11400000, guid: 70ade3a733e2de744bea437413dac185, type: 2}
+  eggBrokenParticle: {fileID: 4079262155060424002, guid: 85d146e1f9005c14fb37db58858af088,
+    type: 3}
 --- !u!65 &4872709606818080707
 BoxCollider:
   m_ObjectHideFlags: 0
