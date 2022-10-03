@@ -6,6 +6,8 @@ using UnityEngine;
 public class CreatureVault : ScriptableObject
 {
     public List<Creature> CreaturePrefabs;
+    public delegate void CreatureSpawnHandler(Creature _creature);
+    public event CreatureSpawnHandler CreatureSpawned;
 
 
     public void SpwanCreature(EggClass _class)
@@ -24,6 +26,7 @@ public class CreatureVault : ScriptableObject
                 if (randNum <= sum)
                 {
                     Instantiate(creature.creaturePrefab, null);
+                    CreatureSpawned?.Invoke(creature);
                     return;
                 }
             }
